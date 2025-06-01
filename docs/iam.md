@@ -64,6 +64,13 @@ Here is how I created a new IAM user with administrator permissions:
 
 7. Complete the user creation process and make note of the **IAM sign-in URL**. This is a special login link that IAM users must use. Bookmark it for future use
 
+### The Principle of Least Privilege
+
+When assigning permissions in IAM, it is considered best practice to follow the principle of least privilege. This means giving users only the permissions they need to complete their tasks, and nothing more.
+
+For example, if someone only needs to view files in S3, you should assign a read-only policy for S3 rather than full administrative access. By limiting what each user can do, you reduce the risk of mistakes or security issues if an account is ever compromised.
+
+In this guide, we are using an administrator user for simplicity, but it is important to be aware that in real environments, permissions should always be kept to the minimum necessary.
 
 ### Access Keys and Programmatic Access
 
@@ -83,14 +90,6 @@ After creating your IAM user:
 - Enable multi-factor authentication for this user, just as you did with the root account
 - Do not share your IAM credentials with anyone else
 - Only use the root account when absolutely necessary
-
-### The Principle of Least Privilege
-
-When assigning permissions in IAM, it is considered best practice to follow the principle of least privilege. This means giving users only the permissions they need to complete their tasks, and nothing more.
-
-For example, if someone only needs to view files in S3, you should assign a read-only policy for S3 rather than full administrative access. By limiting what each user can do, you reduce the risk of mistakes or security issues if an account is ever compromised.
-
-In this guide, we are using an administrator user for simplicity, but it is important to be aware that in real environments, permissions should always be kept to the minimum necessary.
 
 ## What We Will Use Going Forward
 
