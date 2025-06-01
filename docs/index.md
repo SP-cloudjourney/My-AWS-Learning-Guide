@@ -10,4 +10,4 @@ Thank you for visiting my learning portfolio. This site documents my personal jo
 
 The goal of this site is twofold. First, to deepen my understanding of AWS services through writing and teaching. Second, to organise my learning in a way that helps with long-term understanding and recall. Each topic reflects not only what I have studied, but also how I interpret and apply key concepts. These range from core services like EC2 and S3 to areas such as identity management, networking, and architectural design.
 
-Although this site is primarily a personal resource, I have chosen to make it public. Anyone who is interested, whether a recruiter, a fellow learner, or a future colleague, is welcome to explore how I think through technical topics and track my progress in cloud computing.
+Although this site is mainly a personal resource, I have made it public in case it can help others who are also learning about cloud computing. Whether you are just getting started, exploring AWS for the first time, or simply curious, I hope it gives a useful and honest look at where I am in my cloud journey.
