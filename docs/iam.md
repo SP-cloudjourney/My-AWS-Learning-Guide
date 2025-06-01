@@ -103,4 +103,4 @@ IAM allows you to control who can access your AWS environment and what they can 
 
 You can download the flashcards I created for IAM in a format ready to import into Anki:
 
-[📥 Download IAM Flashcards (TSV)](flashcards/IAM_flashcards_for_Anki.tsv.zip)
+[📥 Download IAM Flashcards (TSV)](docs/flashcards/IAM_flashcards_for_Anki.tsv.zip)
