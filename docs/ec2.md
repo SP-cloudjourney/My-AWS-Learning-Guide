@@ -1,0 +1,1 @@
+<h1 style="color: #FF9900;">EC2 - Elastic Compute Cloud</h1>

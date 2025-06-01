@@ -1,0 +1,24 @@
+# MkDocs build output
+site/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+*.egg-info/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Downloads or temporary files
+downloads/
+*.zip

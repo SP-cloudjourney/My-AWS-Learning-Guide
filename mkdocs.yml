@@ -1,0 +1,48 @@
+site_name: My AWS Cloud Journey
+site_url: https://sitename.example
+nav:
+  - My AWS Learning Guide : index.md
+  - Getting started with AWS: getting started with aws.md
+  - Setting budgets and billing alerts: budgets.md
+  - IAM - Identity and Access Management: iam.md
+  - CLI - Command Line Interface: cli.md
+  - EC2 - Elastic Compute Cloud: ec2.md
+  - S3 - Simple Storage Service: s3.md
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: orange
+      accent: deep orange
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: orange
+      accent: deep orange
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/patel-shane
+
+copyright: Copyright &copy; 2025 Shane Patel
