@@ -6,7 +6,7 @@ IAM stands for Identity and Access Management. It is the AWS service that allows
 
 IAM is one of the most important services for securing your account, and it forms the foundation of access control in AWS.
 
-## Why Use IAM Instead of the Root Account?
+## Why Use IAM User Instead of the Root Account?
 
 The root account has unrestricted access to your entire AWS environment. If that account is compromised, everything in your account could be exposed, changed, or deleted.
 
